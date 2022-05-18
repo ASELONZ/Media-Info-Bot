@@ -9,5 +9,5 @@ else
 fi
 cd /Media-Info-Bot
 pip3 install -U -r requirements.txt
-echo "Starting Bot.... By @DKBOTZ"
+echo "Starting Bot.... By @ANKIT3690"
 python3 media.py
