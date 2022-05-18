@@ -25,7 +25,9 @@ async def help(client: Client, message: Message):
         text = "**🗃️ File Details:**\n\n\n"
         text += f"📂 __File Name:__ `{media.file_name}`\n\n" if media.file_name else ""
         text += f"💽 __Mime Type:__ `{media.mime_type}`\n\n" if media.mime_type else ""
-        text += f"📊 __File Size:__ `{humanbytes(media.file_size)}`\n\n" if media.file_size else ""
+        text += f"📊 __File Size:__ `{humanbytes(media.file_size)}`\n\n" if media.file_size else 
+<b 𝐃𝐄𝐅𝐄𝐍𝐃𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐌𝐔𝐋𝐓𝐈𝐕𝐄𝐑𝐒𝐄 </b>
+<a href=https://t.me/defenderofthemultiverse>𝐃𝐄𝐅𝐄𝐍𝐃𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐌𝐔𝐋𝐓𝐈𝐕𝐄𝐑𝐒𝐄</a>""
         if not message.document:
             text += f"🎞 __Duration:__ `{TimeFormatter(media.duration * 1000)}`\n\n" if media.duration else ""
             text += f"🔰 __Width:__ `{media.width}`\n\n" if media.width else ""
