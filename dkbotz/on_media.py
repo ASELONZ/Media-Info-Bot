@@ -26,25 +26,19 @@ async def help(client: Client, message: Message):
         text += f"📂 __File Name:__ `{media.file_name}`\n\n" if media.file_name else ""
         text += f"💽 __Mime Type:__ `{media.mime_type}`\n\n" if media.mime_type else ""
         text += f"📊 __File Size:__ `{humanbytes(media.file_size)}`\n\n" if media.file_size else 
-        𝐃𝐄𝐅𝐄𝐍𝐃𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐌𝐔𝐋𝐓𝐈𝐕𝐄𝐑𝐒𝐄: @defenderofthemultiverse
-        𝓽ꫝꫀ ᥴ𝘳ꫀꪖ𝓽ꪮ𝘳 ꪮᠻ ꪖꪶꪶ: @thewarriorsreal
-        ꉓ𝕺ค: @ANKIT3690
-        ꧁༒༺☠︎☬ S҉₳𝖀𝕽₳V҉☠︎☬༒꧂: @Saurav3BV6SA9LLElon7Musk""
+        text += f"**꧁༒༺☠︎☬ S҉₳𝖀𝕽₳V҉☠︎☬༒꧂: @Saurav3BV6SA9LLElon7Musk**\n\n
+        text += f"**ꉓ𝕺ค: @ANKIT3690**\n\n"
         if not message.document:
             text += f"🎞 __Duration:__ `{TimeFormatter(media.duration * 1000)}`\n\n" if media.duration else ""
             text += f"🔰 __Width:__ `{media.width}`\n\n" if media.width else ""
             text += f"⭕ __Height:__ `{media.height}`\n\n" if media.height else 
-            𝐃𝐄𝐅𝐄𝐍𝐃𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐌𝐔𝐋𝐓𝐈𝐕𝐄𝐑𝐒𝐄: @defenderofthemultiverse
-            𝓽ꫝꫀ ᥴ𝘳ꫀꪖ𝓽ꪮ𝘳 ꪮᠻ ꪖꪶꪶ: @thewarriorsreal
-            ꉓ𝕺ค: @ANKIT3690
-            ꧁༒༺☠︎☬ S҉₳𝖀𝕽₳V҉☠︎☬༒꧂: @Saurav3BV6SA9LLElon7Musk""
+            text += f"**꧁༒༺☠︎☬ S҉₳𝖀𝕽₳V҉☠︎☬༒꧂: @Saurav3BV6SA9LLElon7Musk**\n\n
+            text += f"**ꉓ𝕺ค: @ANKIT3690**\n\n"
             if message.audio:
                 text += f"🎵 __Title:__ `{media.title}`\n\n" if media.title else ""
                 text += f"🎙 __Performer:__ `{media.performer}`\n\n" if media.performer else 
-                𝐃𝐄𝐅𝐄𝐍𝐃𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐌𝐔𝐋𝐓𝐈𝐕𝐄𝐑𝐒𝐄: @defenderofthemultiverse
-                𝓽ꫝꫀ ᥴ𝘳ꫀꪖ𝓽ꪮ𝘳 ꪮᠻ ꪖꪶꪶ: @thewarriorsreal
-                ꉓ𝕺ค: @ANKIT3690
-                ꧁༒༺☠︎☬ S҉₳𝖀𝕽₳V҉☠︎☬༒꧂: @Saurav3BV6SA9LLElon7Musk""
+                text += f"**꧁༒༺☠︎☬ S҉₳𝖀𝕽₳V҉☠︎☬༒꧂: @Saurav3BV6SA9LLElon7Musk**\n\n
+                text += f"**ꉓ𝕺ค: @ANKIT3690**\n\n"
                 if message.photo:
                     text += f"🔰 __Width:__ `{media.width}`\n\n" if media.width else ""
                     text += f"⭕ __Height:__ `{media.height}`\n\n" if media.height else ""
